@@ -17,6 +17,7 @@ namespace BankProgram
         {
             InitializeComponent();
             lblName.Text = card.Name;
+            lblBalance.Text = card.Balance.ToString();
         }
     }
 }

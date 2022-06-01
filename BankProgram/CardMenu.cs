@@ -17,6 +17,7 @@ namespace BankProgram
         public CardMenu()
         {
             InitializeComponent();
+            comboBox1.SelectedIndex = 0;
         }
 
         private void btnCreate_Click(object sender, EventArgs e)
